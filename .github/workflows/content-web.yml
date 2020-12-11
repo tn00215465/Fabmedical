@@ -30,7 +30,7 @@ jobs:
    build-and-publish-docker-image:
       name: Build and Push Docker Image
       runs-on: ubuntu-latest
-fabmedical-274554      steps:
+      steps:
       # Checkout the repo
       - name: Checkout
         uses: actions/checkout@master
